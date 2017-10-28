@@ -15,7 +15,7 @@ Example preparing access to the `anycoll` collection in the `test` db :
 mongo = Mongo.connect!
 # Select the db to access  
 db = mongo |> Mongo.db("test")  
-# Select the db to access
+# Select the collection to access
 anycoll = db |> Mongo.Db.collection("anycoll")  
 ```
 
